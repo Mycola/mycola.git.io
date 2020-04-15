@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Главная страница</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/jquery-ui.css">
+	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> 
+
+</head>
+<body>
+
+	<!-- Main menu -->
+
+	<header class="main__menu">
+		<div class="container">
+			<div class="nav">
+				<a class="activ" href="index.html">Главная</a>
+				<a href="about.html">О компании</a>
+				<a href="cars.html">Автомобили</a>
+				<a href="services.html">Сервисы</a>
+				<a href="contacts.html">Контакты</a>
+			</div>
+		</div>	
+	</header>
+
+<!-- LOGO -->
+
+	<section class="logo">
+		<div class="container">
+			<a class="logo__icon" href="index.html"><img src="img/log.png" alt="logo"></a>
+		</div>
+	</section> 
+	
+<!-- LOGO -->
+
+<!-- Slider -->
+
+<div class="slider" id="Slider">
+
+	<div class="slick-item">
+		<div class="slider-item">
+			<img src="img/slide1.jpg" alt="" class="img">
+		</div>
+	</div>
+	<div class="slick-item">
+		<div class="slider-item">
+			<img src="img/slide2.jpg" alt="" class="img">
+		</div>
+	</div>
+	<div class="slick-item">
+		<div class="slider-item">
+			<img src="img/slide3.jpg" alt="" class="img">
+		</div>
+	</div>
+	<div class="slick-item">
+		<div class="slider-item">
+			<img src="img/slide4.jpg" alt="" class="img">
+		</div>
+	</div>
+	
+</div> 
+<!-- /slider -->
+
+<section class="triggers">
+	<ul>
+		<li>
+			<img class="triggers__ico" src="img/trigger-1.png" alt="icon">
+			<div class="triggers__title"><span>Быстро и </span><ins>Безопасно</ins></div>
+			<p>Автоматизированная система управления диспетчерской службой такси и спутниковая навигация на автомобилях позволяет оперативно отреагировать на любой заказ.
+			Мы сделаем всё, чтобы ваша поездка была комфортной и безопасной.Есть возможность заказа такси через приложения в телефоне Android, iOS </p>
+			<a href="#"><img src="img/icon.png" alt=""></a>
+		</li>
+		<li>
+			<img class="triggers__ico" src="img/trigger-2.png" alt="icon">
+			<div class="triggers__title"><span>Лучшие </span><ins>Цены</ins></div>
+			<p>Стоимость поездки в нашем такси определяется исходя из километража (существует отдельная услуга – почасовая оплата) и может быть рассчитана и согласована уже во время заказа такси.Оплата производится любым удобным для клиента способом: возможна наличная и безналичная схема (подробности уточнять у диспетчера при заказе). </p>
+			<a href="#"><img src="img/icon.png" alt=""></a>
+		</li>
+		<li>
+			<img class="triggers__ico" src="img/trigger.png" alt="icon">
+			<div class="triggers__title"><span>Доставка </span><ins>Посылок</ins></div>
+			<p>Если вам нужно забрать свой багаж, мы готовы вам помочь.Стоимость доставки фиксируется в приложении. Вес посылки до 20 кг, размер до 170 см в трех измерениях. Оплата банковской картой в приложении. Посылки упакованы в специальные safe-пакеты. Доступно круглосуточно 24 часа, 7 дней в неделю. Быстрая доставка: курьер сразу отвезет посылку получателю </p>
+			<a href="#"><img src="img/icon.png" alt=""></a>
+		</li>
+	</ul>
+</section>
+
+<section class="to_action">
+	<div class="container">
+		<a href="tel:8444244344">+7 (4442) 4-43-44</a>
+		<p>ЗАКАЗАТЬ СЕЙЧАС!</p>
+	</div>
+</section>
+
+<section class="booking__form">
+	<div class="container">
+		<div class="form">
+			<div class="booking__form__title">Форма заказа</div>
+			<form action="">
+				<div class="input__smalls">
+					<input type="text" placeholder="Имя:">
+					<input type="text" placeholder="Тел:">
+					<input type="text" placeholder="Откуда:">
+					<input type="text" placeholder="Куда:">
+				</div>
+				<div class="input__label">
+					<label><span>Время</span><input type="text"></label>
+					<label><span>Дата</span><input type="text" id="datepicker"></label>
+				</div>
+				<div class="radio">
+					<div class="radio__title">Класс:</div>
+					<div class="radio__buttons">
+						<label><input name="radio" type="radio"><i></i><span>Стандарт</span></label>
+						<label><input name="radio" type="radio"><i></i><span>Семейный</span></label>
+						<label><input name="radio" type="radio"><i></i><span>Комфорт</span></label>
+					</div>
+					<div class="selects">
+						<label>
+							<ins>Взрослые</ins>
+							<select name="">
+							<option value="1">1</option>
+							<option value="2">2</option>
+							<option value="3">3</option>
+							<option value="4">4</option>
+							<option value="5">5</option>
+							<option value="6">6</option>
+							</select>
+						</label>
+						<label>
+							<ins>Дети</ins>
+							<select name="">
+							<option value="1">1</option>
+							<option value="2">2</option>
+							<option value="3">3</option>
+							<option value="4">4</option>
+							<option value="5">5</option>
+							<option value="6">6</option>
+							</select>
+						</label>
+					</div>
+				</div>
+				<textarea name="" placeholder="Сообщение:"></textarea>
+				<input type="submit" value="Отправить">
+			</form>
+		</div>
+		<div class="car__links">
+			<ul>
+				<li><a href="cars.html#Standart"><img src="img/car1.jpg" alt=""><span>Стандарт</span></a></li>
+				<li><a href="cars.html#Family"><img src="img/car2.jpg" alt=""><span>Семейный
+				<li><a href="cars.html#Comfort"><img src="img/car3.jpg" alt=""><span>Комфорт</span></a></li>
+			</ul>
+		</div>
+	</div>
+</section>
+
+<footer>
+	<div class="container">
+		<div class="copy">
+			<span>Белое<span>Т</span>акси -Урюпинск-</span>
+		</div>
+		<div class="soc">
+		<a href="#"><img src="img/soc1.png" alt=""></a>
+		<a href="#"><img src="img/soc2.png" alt=""></a>
+		<a href="#"><img src="img/soc3.png" alt=""></a>		
+		</div>
+		<div class="phone">Звоните: <a href="tel:8444244344">+7 (4442) 4-43-44</a></div>
+	</div>	
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="js/jquery-1.7.2.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script src="js/slider.js"></script>
+<script src="js/jquery-ui.js"></script>
+<script src="js/jselector.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
